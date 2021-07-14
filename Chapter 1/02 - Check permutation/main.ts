@@ -1,4 +1,4 @@
-function stringToHashMap(originalString) {
+function stringToHashMap(originalString: string): Record<string, number> {
   const characterMap = {};
 
   for (const character of originalString.toLowerCase()) {
