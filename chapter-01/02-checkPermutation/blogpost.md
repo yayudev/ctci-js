@@ -146,4 +146,4 @@ The advantage of this approach is that we only need to do 2 loops (`O(a + b)`), 
 
 To be honest, the difference would probably not be that much in most cases so personally, unless performance is a really critical priority, I would prefer to use the first approach as it is simpler and easier to reason about without much context. But again, that comes to personal preference and use case so just use whatever works for you :)
 
-Code available with tests on [github](https://github.com/yayudev/ctci-js/tree/master/Chapter%201/02%20-%20Check%20permutation).
+Code available with tests on [github](https://github.com/yayudev/ctci-js/tree/master/chapter-01/02-checkPermutation).

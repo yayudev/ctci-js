@@ -53,4 +53,4 @@ export function hasOnlyUniqueCharacters(testString) {
 
 As an extra, based on the solution on the book it seems like it wasn't required but I kinda wanted to take into account different case letters, so I added `testString.toLowerCase()` just to make sure we catch duplicates if one was in lowercase and other in uppercase but I don't think that's required at all so feel free to leave it out.
 
-That's it, that's my solution for today. Code with tests is available at [github](https://github.com/yayudev/ctci-js/tree/master/Chapter%201/01%20-%20Is%20unique).
+That's it, that's my solution for today. Code with tests is available at [github](https://github.com/yayudev/ctci-js/blob/master/chapter-01/01-isUnique/).
