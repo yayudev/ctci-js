@@ -55,8 +55,6 @@ describe("isStringPermutation", () => {
     const resultSimple = isStringPermutationSimple(string1, string2);
     const resultOptimized = isStringPermutationOptimized(string1, string2);
 
-    console.log({ resultSimple, resultOptimized });
-
     expect(resultSimple).toBe(false);
     expect(resultOptimized).toBe(false);
   });
